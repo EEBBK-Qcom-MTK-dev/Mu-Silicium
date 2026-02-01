@@ -5,6 +5,7 @@ on:
     paths:
       - 'Binaries'
       - 'Common/**'
+      - 'EEBBKDriverS'
       - 'Features/**'
       - 'Mu_Basecore'
       - 'MuPatches/**'
@@ -17,6 +18,7 @@ on:
     paths:
       - 'Binaries'
       - 'Common/**'
+      - 'EEBBKDriverS'
       - 'Features/**'
       - 'Mu_Basecore'
       - 'MuPatches/**'

@@ -44,8 +44,8 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Redmi Note 7"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2340
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1600
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2176
   gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
