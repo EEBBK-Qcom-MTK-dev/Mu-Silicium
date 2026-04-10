@@ -400,6 +400,44 @@
 <summary><b><strong>Snapdragon Devices</strong></b></summary>
 
 <br>
+
+<details>
+<summary><b><strong>Snapdragon 8 Elite Gen 5 Devices</strong></b></summary>
+
+<br>
+
+<details>
+<summary><b><strong>OnePlus Devices</strong></b></summary>
+
+## OnePlus 15
+
+<img align="right" src="Resources/Pictures/OnePlus-15.png" width="400" alt="Preview">
+
+**State:** Active <br>
+**Codename:** infiniti
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
+
+### UEFI Status
+
+| Feature            | Description  | State |
+|:-------------------|:-------------|:-----:|
+| Display            |              | ✅    |
+| Internal Storage   |              | ✅    |
+| Side Buttons       |              | ✅    |
+| USB Host Mode      |              | ❌    |
+| USB Device Mode    |              | ✅    |
+| USB Power Delivery |              | ❌    |
+| Mass Storage       |              | ✅    |
+| Windows Boot       |              | ❌    |
+| Linux Boot         |              | ❌    |
+
+</details>
+
+---
+
+</details>
+
 <details>
 <summary><b><strong>Snapdragon 8 Elite Devices</strong></b></summary>
 
@@ -719,6 +757,83 @@
 </table>
 
 <details>
+<summary><b><strong>Samsung Devices</strong></b></summary>
+
+## Samsung Galaxy S23+
+
+<table>
+<tr><td>
+
+> [!CAUTION]
+> `BIT-8` Version is Required on this Device!
+
+</td></tr>
+</table>
+
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-S23+.png" width="400" alt="Preview">
+
+**State:** Active <br>
+**Codename:** dm2q
+
+**Contributors:** [Violet](https://github.com/ghatt-o/), [Robotix](https://github.com/Robotix22/)
+
+### UEFI Status
+
+| Feature            | Description                 | State |
+|:-------------------|:----------------------------|:-----:|
+| Display            |                             | ✅    |
+| Internal Storage   |                             | ✅    |
+| Side Buttons       | No power button             | ⚠️    |
+| USB Host Mode      |                             | ❌    |
+| USB Device Mode    |                             | ❔    |
+| USB Power Delivery |                             | ❌    |
+| Mass Storage       |                             | ❔    |
+| Windows Boot       |                             | ❌    |
+| Linux Boot         |                             | ✅    |
+
+### OS Status
+
+<table>
+<tr><th>Linux</th></tr>
+<tr><td>
+
+| Feature              | Description   | State |
+|:---------------------|:--------------|:-----:|
+| Internal Storage     |               | ✅    |
+| Side Buttons         |               | ✅    |
+| Proximity Sensor     |               | ❌    |
+| Light Sensor         |               | ❌    |
+| Accelerometer Sensor |               | ❌    |
+| Compass Sensor       |               | ❌    | 
+| Gyroscope Sensor     |               | ❌    |
+| Fingerprint Sensor   |               | ❌    |
+| NFC Sensor           |               | ❌    |
+| Temperature Sensor   |               | ❌    |
+| Battery              |               | ❌    |
+| USB Host Mode        |               | ❔    |
+| USB Device Mode      |               | ✅    |
+| USB Power Delivery   |               | ❔    |
+| Charging             | Slow Charging | ✅    |
+| WLAN                 |               | ❌    |
+| CPU                  |               | ✅    |
+| Touchscreen          |               | ❌    |
+| Bluetooth            |               | ❌    |
+| GPS                  |               | ❌    |
+| Speakers             |               | ❌    |
+| Microphone           |               | ❌    |
+| GPU                  |               | ✅    |
+| Camera               |               | ❌    |
+| Flashlight           |               | ❌    |
+| Mobile Data          |               | ❌    |
+| Display              |               | ✅    | 
+| Vibration            |               | ❌    |
+
+</td></tr>
+</table>
+
+</details>
+
+<details>
 <summary><b><strong>OnePlus Devices</strong></b></summary>
 
 ## OnePlus 12R / Ace 3
@@ -830,7 +945,7 @@
 
 ## Qualcomm Technologies, Inc. QRD8550
 
-**State:** active <br>
+**State:** Active <br>
 **Codename:** qrd8550 <br>
 
 **Contributors:** [arminask](https://github.com/arminask/), [map220v](https://github.com/map220v/)
@@ -2444,148 +2559,6 @@
 <br>
 
 <details>
-<summary><b><strong>LG Devices</strong></b></summary>
-
-## LG G8s
-
-<img align="right" src="Resources/Pictures/LG-G8s.png" width="500" alt="Preview">
-
-**State:** Inactive <br>
-**Codename:** betalm
-
-**Contributors:** [Daniel224455](https://github.com/Daniel224455), [n00b69](https://github.com/n00b69), [Icesito68](https://github.com/Icesito68)
-
-### UEFI Status
-
-| Feature            | Description | State |
-|:-------------------|:------------|:-----:|
-| Display            |             | ✅    |
-| Internal Storage   |             | ✅    |
-| Side Buttons       |             | ✅    |
-| USB Host Mode      |             | ❌    |
-| USB Device Mode    |             | ✅    |
-| USB Power Delivery |             | ❌    |
-| Mass Storage       |             | ✅    |
-| SD Card            | Broken      | ❌    |
-| Windows Boot       |             | ✅    |
-| Linux Boot         |             | ❌    |
-
-### OS Status
-
-<table>
-<tr><th>Windows</th></tr>
-<tr><td>
-
-> [!IMPORTANT]
-> Needs [Windows Drivers](https://github.com/n00b69/woa-betalm/releases/tag/Drivers).
-
-| Feature              | Description                                                  | State |
-|:---------------------|:-------------------------------------------------------------|:-----:|
-| Internal Storage     |                                                              | ✅    |
-| SD Card              |                                                              | ❌    |
-| Side Buttons         |                                                              | ✅    |
-| Proximity Sensor     | Partially works, Disabled for now.                           | ⚠️    |
-| Accelerometer Sensor | Partially works, Disabled for now.                           | ⚠️    |
-| Compass Sensor       | Partially works, Disabled for now.                           | ⚠️    |
-| Gyroscope Sensor     | Partially works, Disabled for now.                           | ⚠️    |
-| Fingerprint Sensor   |                                                              | ❌    |
-| NFC Sensor           |                                                              | ❌    |
-| Temperature Sensor   |                                                              | ❔    |
-| Battery              |                                                              | ✅    |
-| USB                  |                                                              | ✅    |
-| Charging             | USB Charging is slow, Wireless Charging is somewhat Fast.    | ✅️    |
-| WLAN                 |                                                              | ✅    |
-| CPU                  |                                                              | ✅    |
-| Touchscreen          |                                                              | ✅    |
-| Bluetooth            |                                                              | ✅    |
-| GPS                  |                                                              | ✅    |
-| Speakers             |                                                              | ❌    |
-| 3.5mm Audio Jack     |                                                              | ✅    |
-| Microphone           |                                                              | ❌    |
-| GPU                  |                                                              | ✅    |
-| Flashlight           |                                                              | ❌    |
-| Camera               |                                                              | ❌    |
-| Mobile Data          |                                                              | ❌    |
-| Display              |                                                              | ✅    |
-| Vibration            |                                                              | ❌    |
-
-</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary><b><strong>OnePlus Devices</strong></b></summary>
-
-## OnePlus 7T Pro
-
-<img align="right" src="Resources/Pictures/Oneplus-7T-Pro.png" width="500" alt="Preview">
-
-**State:** Inactive <br>
-**Codename:** hotdog
-
-**Contributors:** [mat-777](https://github.com/mat-777/) <br>
-
-### UEFI Status
-
-| Feature            | Description     | State |
-|:-------------------|:----------------|:-----:|
-| Display            |                 | ✅    |
-| Internal Storage   |                 | ✅    |
-| Side Buttons       |                 | ✅    |
-| USB Host Mode      |                 | ❌    |
-| USB Device Mode    |                 | ✅    |
-| USB Power Delivery |                 | ❌    |
-| Mass Storage       |                 | ❔    |
-| Windows Boot       |                 | ✅    |
-| Linux Boot         |                 | ❌    |
-
-### OS Status
-
-<table>
-<tr><th>Windows</th></tr>
-<tr><td>
-
-> [!IMPORTANT]
-> Only Windows PE Boots.
-
-| Feature              | Description | State |
-|:---------------------|:------------|:-----:|
-| Internal Storage     |             | ❌    |
-| Side Buttons         |             | ❌    |
-| Proximity Sensor     |             | ❌    |
-| Light Sensor         |             | ❌    |
-| Accelerometer Sensor |             | ❌    |
-| Compass Sensor       |             | ❌    |
-| Gyroscope Sensor     |             | ❌    |
-| Fingerprint Sensor   |             | ❌    |
-| Hall Sensor          |             | ❌    |
-| NFC Sensor           |             | ❌    |
-| Temperature Sensor   |             | ❌    |
-| Battery              |             | ❌    |
-| USB Host Mode        |             | ❌    |
-| USB Device Mode      |             | ❌    |
-| USB Power Delivery   |             | ❌    |
-| Charging             |             | ❌    |
-| WLAN                 |             | ❌    |
-| CPU                  |             | ✅    |
-| Touchscreen          |             | ❌    |
-| Bluetooth            |             | ❌    |
-| GPS                  |             | ❌    |
-| Speakers             |             | ❌    |
-| Microphone           |             | ❌    |
-| GPU                  |             | ❌    |
-| Camera               |             | ❌    |
-| Mobile Data          |             | ❌    |
-| Display              |             | ✅    |
-| Vibration            |             | ❌    |
-
-</td></tr>
-</table>
-
-</details>
-
-<details>
 <summary><b><strong>Xiaomi Devices</strong></b></summary>
 
 ## Xiaomi Pad 5
@@ -2595,7 +2568,7 @@
 **State:** Active <br>
 **Codename:** nabu
 
-**Contributors:** [iNUCi](https://github.com/iNUCi), [Robotix](https://github.com/Robotix22/)
+**Contributors:** [iNUCi](https://github.com/iNUCi), [remtrik](https://github.com/remtrik), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -2642,7 +2615,7 @@
 | Speakers             |                                                              | ✅    |
 | Microphone           |                                                              | ✅    |
 | GPU                  |                                                              | ✅    |
-| Flashlight           |                                                              | ⚠️    |
+| Flashlight           | Accessible only from Windows Camera, acts like a Stroboscope | ⚠️    |
 | Camera               |                                                              | ❌    |
 | Display              |                                                              | ✅    |
 | Vibration            |                                                              | ❌    |
@@ -2698,11 +2671,11 @@
 | Display            |             | ✅    |
 | Internal Storage   |             | ✅    |
 | Side Buttons       |             | ✅    |
-| USB Host Mode      |             | ✅    |
-| USB Device Mode    |             | ❌    |
+| USB Host Mode      |             | ❌    |
+| USB Device Mode    |             | ✅    |
 | USB Power Delivery |             | ❌    |
 | SD Card            |             | ❌    |
-| Mass Storage       |             | ❌    |
+| Mass Storage       |             | ✅    |
 | Windows Boot       |             | ✅    |
 | Linux Boot         |             | ❌    |
 
@@ -2766,7 +2739,7 @@
 | USB Device Mode    |             | ✅    |
 | USB Power Delivery |             | ❌    |
 | SD Card            |             | ❌    |
-| Mass Storage       | Broken      | ❌    |
+| Mass Storage       |             | ✅    |
 | Windows Boot       |             | ✅    |
 | Linux Boot         |             | ✅    |
 

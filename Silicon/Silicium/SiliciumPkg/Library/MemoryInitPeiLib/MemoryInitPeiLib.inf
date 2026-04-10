@@ -17,11 +17,14 @@
 [Packages]
   ArmPkg/ArmPkg.dec
   MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  UefiCpuPkg/UefiCpuPkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
   SiliciumPkg/SiliciumPkg.dec
 
 [LibraryClasses]
   PcdLib
+  SortLib
   ArmMmuLib
   MemoryAllocationLib
   MemoryMapLib
@@ -32,6 +35,7 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiProduceMemoryTypeInformationHob
 
 [Pcd]
+  gArmTokenSpaceGuid.PcdSystemMemoryBase
   gArmTokenSpaceGuid.PcdSystemMemorySize
 
 [Depex]
