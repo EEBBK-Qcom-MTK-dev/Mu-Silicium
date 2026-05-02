@@ -1,4 +1,4 @@
-name: Build UEFI for active devices
+name: Build UEFI for r11
 on:
   push:
     branches: ["main"]
