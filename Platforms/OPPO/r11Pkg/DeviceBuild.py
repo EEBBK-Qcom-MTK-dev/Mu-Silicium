@@ -38,7 +38,7 @@ class CommonPlatform ():
         "Silicon/Qualcomm",
         "Silicon/Silicium",
         "Silicium-ACPI",
-        "Silicium-ACPI/Platforms/OPPO",
+        "Silicium-ACPI/Platforms/Xiaomi",
         "Silicium-ACPI/SoCs/Qualcomm"
     )
 
