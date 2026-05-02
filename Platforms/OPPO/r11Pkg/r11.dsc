@@ -44,8 +44,8 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"OPPO R11"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1600
-  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2176
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|1920
   gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
