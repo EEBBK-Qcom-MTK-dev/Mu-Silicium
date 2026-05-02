@@ -30,7 +30,7 @@ class CommonPlatform ():
     Scopes = ('r11', 'gcc_aarch64_linux', 'edk2-build')
     WorkspaceRoot = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
     PackagesPath = (
-        "Platforms/Xiaomi",
+        "Platforms/OPPO",
         "Common/Mu",
         "Common/Mu_OEM_Sample",
         "Features/DFCI",
@@ -38,7 +38,7 @@ class CommonPlatform ():
         "Silicon/Qualcomm",
         "Silicon/Silicium",
         "Silicium-ACPI",
-        "Silicium-ACPI/Platforms/Xiaomi",
+        "Silicium-ACPI/Platforms/OPPO",
         "Silicium-ACPI/SoCs/Qualcomm"
     )
 
