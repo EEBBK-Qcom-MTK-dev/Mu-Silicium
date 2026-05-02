@@ -1,0 +1,65 @@
+##
+#  Copyright (c) 2011 - 2022, ARM Limited. All rights reserved.
+#  Copyright (c) 2014, Linaro Limited. All rights reserved.
+#  Copyright (c) 2015 - 2020, Intel Corporation. All rights reserved.
+#  Copyright (c) 2018, Bingxing Wang. All rights reserved.
+#  Copyright (c) Microsoft Corporation.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+################################################################################
+#
+# Defines Section - statements that will be processed to create a Makefile.
+#
+################################################################################
+[Defines]
+  PLATFORM_NAME                  = r11
+  PLATFORM_GUID                  = DAA08544-071F-4A77-BD10-2D2EC946EA2F
+  PLATFORM_VERSION               = 0.1
+  DSC_SPECIFICATION              = 0x00010005
+  OUTPUT_DIRECTORY               = Build/r11Pkg
+  SUPPORTED_ARCHITECTURES        = AARCH64
+  BUILD_TARGETS                  = RELEASE|DEBUG
+  SKUID_IDENTIFIER               = DEFAULT
+  FLASH_DEFINITION               = r11Pkg/r11.fdf
+  USE_CUSTOM_DISPLAY_DRIVER      = 1
+
+[PcdsFixedAtBuild]
+  # DDR Start Address
+  gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
+
+  # UEFI Stack Addresses
+  gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x9FF90000
+  gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
+
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x44, 0x85, 0xA0, 0xDA, 0x1F, 0x07, 0x77, 0x4A, 0xBD, 0x10, 0x2D, 0x2E, 0xC9, 0x46, 0xEA, 0x2F }
+
+  # SmBios
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"OPPO"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"OPPO R11"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"r11"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"OPPO_R11_r11
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"OPPO R11"
+
+  # Simple Frame Buffer
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1600
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2176
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
+
+  # Platform Pei
+  gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
+
+  # Dynamic RAM Start Address
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xA0000000
+
+  # Storage
+  gQcomPkgTokenSpaceGuid.PcdInitCardSlot|TRUE
+
+[LibraryClasses]
+  MemoryMapLib|r11Pkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|r11Pkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
+  AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
+
+!include StarlordPkg/StarlordPkg.dsc.inc
