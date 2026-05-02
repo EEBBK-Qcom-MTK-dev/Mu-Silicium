@@ -40,7 +40,7 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"OPPO"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"OPPO R11"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"r11"
-  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"OPPO_R11_r11
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"OPPO_R11_r11"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"OPPO R11"
 
   # Simple Frame Buffer
